@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'Password generator',
-    description: 'Generate a strong password',
+    description: 'Create a secure password using our generator tool',
 };
 
 export default function RootLayout({

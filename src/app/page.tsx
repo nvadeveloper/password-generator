@@ -10,6 +10,7 @@ export default function Home() {
             <PasswordSection length={12} />
             <PasswordSection length={14} />
             <PasswordSection length={16} />
+            <PasswordSection length={20} />
             <Toaster position="top-right" reverseOrder={false} />
         </main>
     );
