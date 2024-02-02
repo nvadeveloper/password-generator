@@ -16,8 +16,10 @@ export default function Home() {
                     </span>
                 </a>
             </div>
-
-            <PasswordSection />
+            <PasswordSection length={10} />
+            <PasswordSection length={12} />
+            <PasswordSection length={14} />
+            <PasswordSection length={16} />
             <Toaster position="top-right" reverseOrder={false} />
         </main>
     );
