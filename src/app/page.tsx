@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import PasswordSection from '@/components/PasswordSection';
+import Rules from '@/components/Rules';
 import { Toaster } from 'react-hot-toast';
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
             <PasswordSection length={14} />
             <PasswordSection length={16} />
             <PasswordSection length={20} />
+            <Rules />
             <Toaster position="top-right" reverseOrder={false} />
         </main>
     );
