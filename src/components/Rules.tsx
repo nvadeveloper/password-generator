@@ -9,8 +9,8 @@ export default function Rules() {
     return (
         <section className="mt-6 text-[14px] text-gray-600">
             <div
-                className="flex justify-between items-center  cursor-pointer"
-                onClick={() => setIsOpen(!isOpen)}>
+                className="flex justify-between items-center cursor-pointer"
+                onClick={() => setIsOpen((prev) => !prev)}>
                 <h2>How to create a Secure Password</h2>
                 {isOpen ? <BsChevronUp /> : <BsChevronDown />}
             </div>

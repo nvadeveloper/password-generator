@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
     title: 'Password generator',
     description: 'Create a secure password using our generator tool',
+    authors: {
+        url: 'https://github.com/nvadeveloper',
+        name: 'nvadeveloper',
+    },
 };
 
 export default function RootLayout({
